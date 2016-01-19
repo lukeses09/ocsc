@@ -1,0 +1,43 @@
+.typeahead, .tt-query, .tt-hint {
+	margin-left: 20px;
+	font-size: 18px;
+	height: 46px;
+	width:250px;
+	outline:none;
+	border: lightgrey solid 1px;
+
+}
+.typeahead {
+	background-color: #FFFFFF;
+}
+.typeahead:focus {
+	border: 2px solid #0097CF;
+}
+.tt-query {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.tt-hint {
+	color: white;
+}
+.tt-dropdown-menu {
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 12px;
+	padding: 8px 0;
+	width: 280px;
+}
+.tt-suggestion {
+	font-size: 18px;
+	line-height: 24px;
+	padding: 3px 20px;
+}
+.tt-suggestion.tt-is-under-cursor {
+	background-color: #0097CF; */
+	font-color: white;
+	color: #FFFFFF;
+}
+.tt-suggestion p {
+	margin: 0;
+}
